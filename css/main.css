@@ -1,0 +1,236 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Sitka Banner";
+}
+.container-panel {
+  width: 75%;
+}
+.group-1 {
+  background: linear-gradient(to bottom,#323232, #9b9c9c);
+  width: 100%;
+  padding-bottom: 5vh;
+}
+
+.group-2 {
+  width: 100%;
+  height: 800px;
+  background-image: url('../img/page2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5% 0;
+  height: auto;
+  width: 100%;
+  border-top:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  background: linear-gradient(to right,#0d104a,#014694);
+
+
+}
+.title {
+  color: #ffffff;
+  font-size: 1.728em;
+  padding-top: 3vh;
+}
+.panel h2 {
+  color: #ffffff;
+  font-size: 1.728em;
+}
+
+.panel p {
+  color: #ffffff;
+  font-size: 1.75em;
+}
+
+.panel-page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 10%;
+  margin-bottom: 5vh;
+  height: 15vh;
+  width: 100%;
+  border-top:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  background: linear-gradient(to right,#0d104a,#014694);
+}
+.panel-page2 p {
+  color: #ffffff;
+  font-size: 1.75em;
+  text-align: left;
+}
+.p-property {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+}
+.plans {
+  width: 100%;
+  height: auto;
+}
+
+.group-3 {
+  background: linear-gradient(#323232,#9c9c9c);
+  width: 100%;
+  height: auto;
+  padding-bottom: 3vh;
+}
+
+.panel-p3 {
+  height: 20vh;
+  text-align: left;
+  padding-left: 10%;
+
+}
+.g3-pos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.g3-img {
+  width: 90%;
+  height: auto;
+}
+
+.group-4{
+  background: linear-gradient(#323232,#9c9c9c);
+  width: 100%;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+.panel-p4 {
+  height: 15vh;
+  width: 100%;
+  border-top:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  background: linear-gradient(to right,#0d104a,#014694);
+  padding-left: 10%;
+}
+.g4-pos {
+  display: flex;
+  align-items: center;
+  padding: 20% 0 ;
+}
+
+.g4-img {
+  width: 47.5%;
+  height: auto;
+}
+
+.panel-offer {
+  height: 15vh;
+  width: 100%:auto;
+  border-top:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  background: linear-gradient(to right,#0d104a,#014694);
+  padding-left: 10%;
+  display: flex;
+  align-items:flex-end;
+
+}
+
+.offer-title {
+  color: #ffffff;
+  font-size: 2em;
+  margin: 0;
+}
+.describe-p9 {
+  padding: 10%;
+  line-height: 1.25;
+}
+
+.describe-p9 p{
+  color: #ffffff;
+  font-size: 1.75em;
+}
+.p-12 {
+  padding: 5% 0;
+}
+.panel-p13{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15vh;
+  width: 100%;
+  border-top:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  background: linear-gradient(to right,#0d104a,#014694);
+}
+.panel-p13 p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-panel {
+    width: 100%;
+  }
+  .panel {
+    padding: 5% 0 5% 10%;
+    height: auto;
+  }
+  .panel p {
+    font-size: 3.5vw;
+  }
+  .group-2 {
+    height: 400px;
+  }
+  .panel-page2 {
+    height: auto;
+    padding: 5% 0 5% 10%;
+  }
+
+  .panel-page2 p {
+    font-size: 3.5vw;
+  }
+  .panel-p4 {
+    height: auto;
+    padding: 5% 0 5% 10%;
+  }
+  .title {
+    padding-top: 0;
+    font-size: 3.5vw;
+  }
+  .panel-offer {
+    padding: 5% 0 0 10%;
+    height: auto;
+  }
+  .offer-title {
+    font-size: 4.5vw;
+  }
+  .describe-p9 p {
+    font-size: 3.25vw;
+  }
+  .panel-p13 {
+    height: auto;
+    padding: 4% 0;
+  }
+  .panel-p13 p {
+    font-size: 3vw;
+  }
+}
